@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2e7046fed1.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i id="closem" class="fa-solid fa-circle-xmark"  onclick="closemenu()" ></i>
+                </ul>
+                <i  id="openm" class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="row">
+            <div class="header-text">
+                <p>Full-stack developer</p>
+                <h1>Hi, I am <span>Aashmeen Kaur</span><br> from Punjab</h1>
+            </div>
+          
+            </div>
+        </div>
+
+    </div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/myImg1.jpeg"> 
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p class="aboutP">Passionate about learning new and challenging things and implementing them in new projects. Seeking for different opportunities which will enhance my JAVA and DATABASE (SQL, MYSQL, PL/SQL, Oracle) knowledge to peak. Ability to analyse problems and provide technical solutions. Looking for an entry-level job to start career as full-stack developer and database administrator Capable of building robust applications and designing innovative web pages.</p>
+           <div class="tab-titles">
+                 <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                 <p class="tab-links" onclick="opentab('education')">Education</p> 
+           </div>
+           <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li>Front-end, back-end programming
+                </li>
+                <li> Programming Languages: Java, HTML, CSS, JavaScript, MongoDB, SQL, Oracle,
+                    PHP, C#</li>
+                 
+                <li>Frameworks Knowledge: Spring Boot, Entity Framework, ADO.NET, Angular JS</li>
+                <li> Quick learner and self-starter </li>
+                <li>Critical thinking, problem-solving, and communication skills </li>
+           <li>Strong verbal and written communication skills</li>
+            </ul>
+           </div>
+           <div class="tab-contents" id="education">
+            <h3 class="eduH3">Computer Programming-PCPRG</h3>
+            <h4 class="eduH4">Mainly focussed at-</h4>
+            <ul>
+               <li>OOP-Java, ADO.Net, SQL, MySQL, Oracle, MongoDB</li>
+               <li>Enterprise Java Development (Spring Boot Framework), Java Fx
+                </li>
+                <li>Web development and web technologies (HTML5, CSS, JS, PHP)
+                </li>
+                <li> Angular JS, Typescript
+                </li>
+                <li> Intro To Linux administration</li>
+                <li>Data Structure and algorithms in C
+                </li>
+            </ul>
+           </div>
+                     
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Java Programming</h2>
+                <p>Java is a subject that interests me much.
+                    I am capable at completing difficult tasks. I am also knowledgeable in Java FX. With JAVA FX, I can create applications for the front and back ends.
+                    Additionally, I am able to use the Spring Boot Framework.</p>
+               
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-code-compare"></i>
+                <h2>DATABASE ADMINISTRATION</h2>
+                <p>I am well-versed in SQL and Oracle. I am able
+                     to use numerous MySql and PL/SQL queries to carry out various actions on various databases.</p>
+            </div><div>
+                <i class="fa-solid fa-network-wired"></i>
+                <h2>Web DEVELOPMENT</h2>
+                <p>Additionally, I'm a proficient user of Javascript, HTML, and CSS. I am therefore capable of creating various websites. I've also learned Angular JS, which is another thing.
+                     I am therefore quite skilled at designing websites. I am also capable of working with JSON.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------projects------->
+<div id="projects">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+   
+        <div class="layer">
+          <ul>
+            <li>Build movies’ reviews app, login/logout with different roles and different databases along with spring security with Spring Boot on eclipse IDE</li>
+                <li>Built a CRUD Project with the use of Spring Boot framework which helps online shopping at grocery store which contains database of different categories, then add the selected items to cart and at last make a total</li>
+                <li>Developed a payroll system for a company using Java FX which reads and save the data in text files using VS Code</li>
+                <li>With Java FX developed an image gallery, contact book, bills of restaurant</li>
+                <li>Vehicles DBMS with the use of WPF and C# with CRUD operations.</li>
+                <li>Database Management project using Oracle which does many operations using different queries on database provided by college</li>
+                <li>Angular Projects with JSON</li>
+                <li>Menu of diner with 3 meals time (corresponding menu (breakfast, lunch, dinner) will be shown according to current time)</li>
+                <li>Multiple page website forms with the use of local storage</li>
+                <li>Angular Apps which extract the data from JSON including components and angular material (mat-tabs, mat-buttons, icons)</li>
+                
+          
+        </ul>
+    </div>    
+
+    </div>
+</div>
+    <!---contact-------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                   
+                    <p> <i class="fa-solid fa-envelope"></i>aashmeenkaur2412@gmail.com</p>
+                   
+                    <p> <i class="fa-solid fa-phone"></i>4372651187</p>
+                 <a href="images/AashmeenKaurResume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                
+        </div>
+    </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+    <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+
+    </script>
+</body>
+</html>
+
+
+
